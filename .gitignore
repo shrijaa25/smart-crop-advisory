@@ -1,0 +1,12 @@
+﻿# Local configuration and data
+**/.env
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.pytest-tmp/
+**/*pytest-tmp*/
+**/pytest-temp/
+**/*.py[cod]
+**/*.db
+**/*.db.*
+**/*.bak

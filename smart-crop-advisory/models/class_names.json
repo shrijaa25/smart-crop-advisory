@@ -1,0 +1,42 @@
+{
+  "classes": [
+    "Bacterial_canker",
+    "Bacterial_spot",
+    "Chilli_Anthracnose",
+    "Chilli_Bacterial_Spot",
+    "Chilli_Damping_Off",
+    "Chilli_Leaf_Curl_Virus",
+    "Chilli_Leaf_Spot",
+    "Chilli_Veinal_Mottle_Virus",
+    "Chilli_Whitefly",
+    "Chilli_Yellowish",
+    "Chilli_healthy",
+    "Early_blight",
+    "Late_blight",
+    "Leaf_curl",
+    "Septoria_leaf_spot",
+    "Spotted_Wilt",
+    "Tomato_healthy",
+    "Tomato_mosaic_virus"
+  ],
+  "marathi": {
+    "Bacterial_canker": "जिवाणू कर्पा (Jivanu Karpa)",
+    "Bacterial_spot": "जिवाणू ठिपके (Jivanu Thipke)",
+    "Chilli_Anthracnose": "फळ सड / कूर्पा (Phalsad / Karpa)",
+    "Chilli_Bacterial_Spot": "मिरची जिवाणू ठिपके (Mirchi Jivanu Thipke)",
+    "Chilli_Damping_Off": "मर रोग (Mar Rog)",
+    "Chilli_Leaf_Curl_Virus": "चुरडा-मुरडा / बोकड्या (Churda-Murda / Bokadya)",
+    "Chilli_Leaf_Spot": "मिरची पान ठिपके (Mirchi Pan Thipke)",
+    "Chilli_Veinal_Mottle_Virus": "शिरा पिवळ्या पडणे (Shira Pivalya Padane)",
+    "Chilli_Whitefly": "पांढरी माशी (Pandhari Mashi)",
+    "Chilli_Yellowish": "मिरची पिवळी पडणे (Mirchi Pivali Padane)",
+    "Chilli_healthy": "निरोगी मिरची (Nirogi Mirchi)",
+    "Early_blight": "लवकर येणारा करपा (Lavkar Karpa)",
+    "Late_blight": "उशिरा येणारा करपा (Ushira Karpa)",
+    "Leaf_curl": "चुरडा-मुरडा (Churda-Murda)",
+    "Septoria_leaf_spot": "सेप्टोरिया ठिपके (Septoria Thipke)",
+    "Spotted_Wilt": "ठिपकेदार सुकवा (Thipkedar Sukva)",
+    "Tomato_healthy": "निरोगी पीक (Nirogi Peek)",
+    "Tomato_mosaic_virus": "टोमॅटो मोझॅक (Tomato Mosaic)"
+  }
+}
