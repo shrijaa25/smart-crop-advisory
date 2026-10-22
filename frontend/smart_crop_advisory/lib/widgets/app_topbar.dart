@@ -6,11 +6,13 @@ import '../theme/app_spacing.dart';
 class AppTopbar extends StatelessWidget {
   final String title;
   final String farmerName;
+  final VoidCallback? onLogout;
 
   const AppTopbar({
     super.key,
     required this.title,
     this.farmerName = 'Farmer',
+    this.onLogout,
   });
 
   @override
@@ -27,7 +29,10 @@ class AppTopbar extends StatelessWidget {
           Text(title, style: AppText.h3),
           const Spacer(),
           IconButton(
-            icon: const Icon(Icons.notifications_none, color: AppColors.textPrimary),
+            icon: const Icon(
+              Icons.notifications_none,
+              color: AppColors.textPrimary,
+            ),
             onPressed: () {},
           ),
           const SizedBox(width: AppSpace.sm),
@@ -44,6 +49,12 @@ class AppTopbar extends StatelessWidget {
               const SizedBox(width: 10),
               Text(farmerName, style: AppText.label),
             ],
+          ),
+          const SizedBox(width: AppSpace.sm),
+          IconButton(
+            tooltip: 'Sign out',
+            icon: const Icon(Icons.logout, color: AppColors.textPrimary),
+            onPressed: onLogout,
           ),
         ],
       ),

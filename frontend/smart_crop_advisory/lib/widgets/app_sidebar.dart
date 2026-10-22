@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_text_styles.dart';
-import '../theme/app_spacing.dart';
 
 class NavItem {
   final IconData icon;
@@ -23,7 +22,8 @@ class AppSidebar extends StatelessWidget {
 
   static const items = [
     NavItem(Icons.home_outlined, 'Home'),
-    NavItem(Icons.grass_outlined, 'My Crops'),
+    NavItem(Icons.grass_outlined, 'Farm & Crops'),
+    NavItem(Icons.checklist_outlined, 'Daily Tasks'),
     NavItem(Icons.assignment_outlined, 'Advisory'),
     NavItem(Icons.camera_alt_outlined, 'Scan'),
     NavItem(Icons.show_chart_outlined, 'History'),
@@ -48,12 +48,17 @@ class AppSidebar extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  width: 36, height: 36,
+                  width: 36,
+                  height: 36,
                   decoration: BoxDecoration(
                     color: AppColors.primaryLight,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: const Icon(Icons.eco, color: AppColors.primary, size: 20),
+                  child: const Icon(
+                    Icons.eco,
+                    color: AppColors.primary,
+                    size: 20,
+                  ),
                 ),
                 if (!collapsed) ...[
                   const SizedBox(width: 12),
@@ -87,15 +92,21 @@ class AppSidebar extends StatelessWidget {
                         Icon(
                           item.icon,
                           size: 20,
-                          color: active ? AppColors.primary : AppColors.textSecondary,
+                          color: active
+                              ? AppColors.primary
+                              : AppColors.textSecondary,
                         ),
                         if (!collapsed) ...[
                           const SizedBox(width: 14),
                           Text(
                             item.label,
                             style: AppText.body.copyWith(
-                              color: active ? AppColors.primary : AppColors.textPrimary,
-                              fontWeight: active ? FontWeight.w600 : FontWeight.w400,
+                              color: active
+                                  ? AppColors.primary
+                                  : AppColors.textPrimary,
+                              fontWeight: active
+                                  ? FontWeight.w600
+                                  : FontWeight.w400,
                             ),
                           ),
                         ],

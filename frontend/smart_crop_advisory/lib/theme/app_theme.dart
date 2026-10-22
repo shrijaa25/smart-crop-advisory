@@ -6,6 +6,7 @@ import 'app_spacing.dart';
 class AppTheme {
   static ThemeData light() {
     return ThemeData(
+      fontFamily: 'Rubik',
       scaffoldBackgroundColor: AppColors.bg,
       primaryColor: AppColors.primary,
       colorScheme: ColorScheme.fromSeed(
